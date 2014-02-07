@@ -1,0 +1,36 @@
+{
+  "name": "bunyan-pilgrim",
+  "version": "0.1.0",
+  "description": "A REST-oriented logger for Bunyan",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha -t 2000 -R spec -u bdd --harmony $(find tests -name 'test_*.js')"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mtabini/bunyan-pilgrim.git"
+  },
+  "keywords": [
+    "bunyan",
+    "logging",
+    "rest",
+    "restify",
+    "express",
+    "http"
+  ],
+  "author": "Marco Tabini <marcot@tabini.ca>",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/mtabini/bunyan-pilgrim/issues"
+  },
+  "homepage": "https://github.com/mtabini/bunyan-pilgrim",
+  "devDependencies": {
+    "bunyan": "~0.22.1",
+    "restify": "~2.6.1",
+    "chai": "~1.9.0",
+    "mocha": "~1.17.1",
+    "request": "~2.33.0",
+    "async": "~0.2.10",
+    "tmp": "0.0.23"
+  }
+}
